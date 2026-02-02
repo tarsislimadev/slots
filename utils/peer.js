@@ -1,4 +1,4 @@
-import { Peer } from '../../../assets/js/libs/peerjs/index.js'
+import { Peer } from './../libs/peerjs/index.js'
 import { qrcode } from './functions.js'
 
 class MyPeer extends Peer {
@@ -35,7 +35,7 @@ class MyPeer extends Peer {
 
   getQRCodeUrl() {
     const url = new URL(window.location)
-    url.pathname = `/projects/${this.state.project}/controls.html?id=${this.id}`
+    url.pathname = `/${this.state.project}/controls.html?id=${this.id}`
     url.search = ''
     return (url.toString()).replace('%3F', '?')
   }

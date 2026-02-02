@@ -2,7 +2,7 @@ import { request, simple_request } from './ajax.js'
 
 import { arr2str } from './str.js'
 
-import * as LOCAL from '../../../assets/js/utils/local.js'
+import * as LOCAL from './local.js'
 
 const url = (url, query = {}) => {
   const nUrl = new URL(url)

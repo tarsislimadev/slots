@@ -3,10 +3,10 @@ import * as THREE from './../libs/three/index.js'
 const loader = new THREE.TextureLoader()
 
 const textures = [
-  loader.load('/projects/slots/images/square.black.png'),
-  loader.load('/projects/slots/images/square.red.png'),
-  loader.load('/projects/slots/images/square.black.1.png'),
-  loader.load('/projects/slots/images/square.red.1.png'),
+  loader.load('/images/square.black.png'),
+  loader.load('/images/square.red.png'),
+  loader.load('/images/square.black.1.png'),
+  loader.load('/images/square.red.1.png'),
 ]
 
 export const createCylinderGeometry = ({ planeSize = 10 } = {}) => {

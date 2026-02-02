@@ -1,4 +1,4 @@
-import * as THREE from '../../../assets/js/libs/three/index.js'
+import * as THREE from './../libs/three/index.js'
 
 import * as COLORS from './colors.js'
 import * as WINDOW from './window.js'
